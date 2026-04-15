@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.vscode/
+*.log
+
+# Generated at runtime by InventoryManager
+extensions/isaac_drone_inspection/isaac_drone_inspection/warehouse_inventory.csv
+
+# Debug scan images written by scanner.py if enabled
+extensions/isaac_drone_inspection/isaac_drone_inspection/scan_*.png
+
+# Large simulation assets are tracked separately (see assets/README.md)
