@@ -1,0 +1,4 @@
+numpy
+opencv-python
+# Only needed for the palettewise_scanning branch / AprilTag-based scanning:
+# pupil-apriltags
