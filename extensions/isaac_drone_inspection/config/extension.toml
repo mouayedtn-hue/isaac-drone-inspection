@@ -1,0 +1,18 @@
+[package]
+version = "0.1.0"
+title = "Isaac Drone Inspection"
+description = "Autonomous drone warehouse inspection demo for Isaac Sim."
+category = "Simulation"
+authors = ["Lamarr Institute / SAS Group"]
+readme = "../../../README.md"
+
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.usd" = {}
+"omni.physx" = {}
+"omni.isaac.core" = {}
+"omni.isaac.sensor" = {}
+"omni.isaac.debug_draw" = {}
+
+[[python.module]]
+name = "isaac_drone_inspection"
